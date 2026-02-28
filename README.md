@@ -1,4 +1,4 @@
-# DynamicTP Spring Boot Starter
+# AdaptiveTP Spring Boot Starter
 
 一个功能完整的动态线程池管理中间件，基于 Spring Boot Starter 机制实现零代码侵入接入。支持运行时动态调参、自适应扩缩容、计划模式、邮件报警、内置可视化监控面板。
 
@@ -50,7 +50,7 @@
 ```xml
 <dependency>
     <groupId>com.dynamictp</groupId>
-    <artifactId>dynamictp-spring-boot-starter</artifactId>
+    <artifactId>adaptiveTP-spring-boot-starter</artifactId>
     <version>1.0.0</version>
 </dependency>
 <!-- 如需邮件报警 -->
@@ -262,4 +262,4 @@ public class ThreadPoolConfig {
 
 ## Contributing
 
-欢迎提交 Issue 和 Pull Request。
+欢迎提交 Issue 和 Pull Request，作者：cyx
